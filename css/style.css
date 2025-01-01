@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+:root {
+  --primary-color: #eaeaea;
+  --secondary-color: #ffffff;
+  --heading-color: #101828;
+  --font-family: "Poppins", serif;
+  --brand-color: #ff8822;
+  --outline-color: #D1E9FF;
+  --shadow-color: #98A2B3;
+}
+
+body {
+  background: var(--primary-color);
+  font-size: 1rem;
+  font-style: normal;
+}
+
+
+/* login form 
+=================
+*/
+#login-form {
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+form {
+  width: 33.75rem;
+  height: 28.13rem;
+  background: var(--secondary-color);
+  padding: 3rem 4.5rem;
+  border-radius: 1.25rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+#login-form h1 {
+  color: var(--heading-color);
+  font-size: 1.75rem;
+  font-weight: 600;
+  font-family: var(--font-family);
+  text-align: left;
+  margin-bottom: 1.25rem;
+}
+
+#login-form label {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 0.63rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+#login-form label a {
+  text-decoration: none;
+  color: var(--brand-color);
+}
+#login-form label a:hover {
+  text-decoration: underline;
+}
+#login-form input{
+  width: 100%;
+  display: block;
+  padding: 0.75rem 1rem;
+  margin-top: 0.31rem;
+  border-radius: 0.31rem;
+  border: 1px solid var(--heading-color);
+  font-size: 1rem;
+  color: var(--heading-color);
+  font-family: var(--font-family);
+}
+
+
+#login-form button{
+  margin-top: 1.87rem;
+  width: 100%;
+  padding: 1rem;
+  background: var(--brand-color);
+  border: none;
+  color: var(--secondary-color);
+  font-family: var(--font-family);
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  /* transition: 0.3s; */
+}
+
+#login-form button:hover{
+  background: #ea7815;
+}
+
+#login-form p{
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  color: var(--shadow-color);
+}
+#login-form p a{
+  color: var(--brand-color);
+  font-size: 1rem;
+  font-family: var(--font-family);
+  font-weight: 500;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+#login-form p a:hover{
+  text-decoration: underline;
+}
+
+
+
+
